@@ -1,0 +1,15 @@
+app-site-footer {
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(226, 226, 226);
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  background-color: #444242;
+  opacity: 1;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #444242 8px
+    ),
+    repeating-linear-gradient(#5e6fa555, #5e6fa5);
+}

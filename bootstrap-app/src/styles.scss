@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-@import "./app/components/main-site/main-site.component.scss";
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,900&display=swap");
+
+//components imports
+@import "./app/components/main-site/main-site.component.scss";
+@import "./app/components/main-site/site-footer/site-footer.component.scss";
 
 body {
   font-family: "Exo 2", sans-serif;
