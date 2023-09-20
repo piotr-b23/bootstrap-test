@@ -8,5 +8,13 @@ app-main-site {
     background-color: #9aa0bc;
     background-image: radial-gradient(#000000 0.2px, #9aa0bc 0.2px);
     background-size: 4px 4px;
+    .site {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      .site-main-content {
+        flex: 1;
+      }
+    }
   }
 }
